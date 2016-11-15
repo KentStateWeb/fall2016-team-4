@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food</title>
+    <meta name="description" content="Page Description Goes Here">
+  </head>
+  <body>
+    <nav>Beers Events
+      <img src=http://rwdkent.com/class/groups/assets/group12/HoppsHouse-mark.svg class="secondary logo" alt="Hops House Logo">
+      Food Contact</nav>
+    <main>
+      <div class="intro">
+        <h1>Fast and Fresh Eats</h1>
+        <h2>Our Signature Food Items</h2>
+        <p>Snack on signature flatbreads, BBQ pork rinds,and truffle and parmesan fries.
+        </p>
+      </div>
+      <div class="menu">
+      </div>
+    </main>
+      <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
+  </body>
+</html>
