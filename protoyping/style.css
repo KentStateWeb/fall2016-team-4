@@ -1,0 +1,18 @@
+main{
+  margin:0 auto;
+  max-width:1000px;
+}
+.secondarylogo{
+  max-width:10%;
+}
+nav{
+  text-align:center;
+  background-color:gray;
+}
+.intro{
+  text-align:center;
+  margin:5%;
+}
+h1{
+  font-family:"brandon-grotesque", sans-serif;
+}
