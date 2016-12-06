@@ -1,7 +1,4 @@
-<!-- main and nav -->
-body{
-  max-width:1000px
-}
+/*main and nav*/
 main{
   margin:5% auto;
   max-width:1000px;
@@ -9,27 +6,30 @@ main{
 }
 .secondarylogo{
   max-width:120px;
+  padding:none;
 }
 
 nav{
   text-align:center;
   background-color:#E74f00;
   margin:auto;
+  font-family:"brandon-grotesque",san-serif;
+  text-transform: uppercase;
 }
-
 ul{
   list-style:none;
   display:flex;
   justify-content:center;
   padding:0;
 }
-
-li{
-  padding:3em;
-
+nav a{
+  color:white;
+  text-decoration: none;
 }
-
-<!-- intros -->
+li{
+  padding:2em 4em;
+  color: white;
+}
 .intro{
   text-align:center;
   margin:20%;
@@ -43,11 +43,9 @@ h1{
   margin-bottom: 3em auto;
 }
 
-<!-- Grid -->
-}
+/*grid*/
 .first-row{
   display:flex;
-
 }
 .second-row{
   display:flex;
@@ -57,3 +55,14 @@ h1{
   padding:4em;
   margin:2em;
 }
+.beer-title{
+  font-weight:bold;
+}
+figcaption{
+  max-width:300px;
+}
+fig{
+  margin:1em;
+}
+.row{
+  display:flex;
