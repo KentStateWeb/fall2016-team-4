@@ -3,13 +3,12 @@ body{
   font-family:"brandon-grotesque",san-serif;
 }
 main{
-  margin:0 auto;
+  margin:2em auto;
   max-width:1000px;
   font-family:"brandon-grotesque",san-serif;
 }
-.secondarylogo{
-  max-width:120px;
-  padding:none;
+.navlogo{
+  max-width:100px;
 }
 
 nav{
@@ -32,7 +31,7 @@ nav a{
 nav ul li{
   padding:2em 4em;
   color: white;
-  letterspacing:10px;
+  letter-spacing:3px;
 }
 .intro{
   text-align:center;
@@ -74,19 +73,19 @@ fig{
   }
 }
 
-
-
-
+.hours{
+  display:flex;
+}
 /*footer*/
 .FooterLogo{
-  width:10%;
+  width:5em;
   float:left;
 }
 footer{
   background-color:#464646;
-  margin-top:5px;
+  margin:auto;
   padding:10px;
-  display:flex
+  display:flex;
 }
 
 .footerBar li {
@@ -102,10 +101,9 @@ footer{
 }
 
 .footerIcons{
-  margin-left: auto;
+  margin:10px;
   border: none;
-  position:absolute;
-  align:right;
+  float:right;
 }
 .footerBar{
   display:flex;
