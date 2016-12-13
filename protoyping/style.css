@@ -1,4 +1,7 @@
 /*main and nav*/
+body{
+  font-family:"brandon-grotesque",san-serif;
+}
 main{
   margin:0 auto;
   max-width:1000px;
@@ -16,7 +19,7 @@ nav{
   font-family:"brandon-grotesque",san-serif;
   text-transform: uppercase;
 }
-ul{
+nav ul{
   list-style:none;
   display:flex;
   justify-content:center;
@@ -26,9 +29,10 @@ nav a{
   color:white;
   text-decoration: none;
 }
-li{
+nav ul li{
   padding:2em 4em;
   color: white;
+  letterspacing:10px;
 }
 .intro{
   text-align:center;
@@ -39,8 +43,8 @@ h1{
   font-family:"brandon-grotesque", sans-serif;
   text-align:center;
   font-size:63px;
-  margin-top: 3em auto;
-  margin-bottom: 3em auto;
+  margin-top:3em;
+  margin-bottom:3em;
 }
 
 /*grid*/
@@ -74,27 +78,38 @@ fig{
 
 
 /*footer*/
-footer
-{
-   background-color:#E74f00;
-
-  display:flex;
+.FooterLogo{
+  width:10%;
+  float:left;
+}
+footer{
+  background-color:#464646;
   margin-top:5px;
+  padding:10px;
+  display:flex
 }
 
 .footerBar li {
   list-style: none;
-}
-
-.footerLogo {
-  width: 100px;
+  color: white;
+  padding-right:2.5em;
+  font-size:14px;
+  letter-spacing:1px;
 }
 
 .footerSM{
-  width: 60px;
+  width: 30px;
 }
 
 .footerIcons{
   margin-left: auto;
   border: none;
+  position:absolute;
+  align:right;
+}
+.footerBar{
+  display:flex;
+}
+footer li a{
+  color:white;
 }
