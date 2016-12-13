@@ -87,6 +87,15 @@ contact-icon{
   max-width:400px;
 }
 
+.icons img{
+  width:40px
+}
+
+.phonelocationicons img{
+  width:80px
+}
+
+
 /*footer*/
 .FooterLogo{
   width:5em;
