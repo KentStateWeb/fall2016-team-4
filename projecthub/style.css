@@ -1,35 +1,54 @@
+/*main and nav*/
+body{
+  font-family:"brandon-grotesque",san-serif;
+}
+main{
+  margin:0 auto;
+  max-width:1000px;
+  font-family:"brandon-grotesque",san-serif;
+  font-size: 20px;
+  padding: 2em
+}
+.navlogo{
+  max-width:100px;
+  vertical-align: baseline;
+}
+
 nav{
   text-align:center;
   background-color:#E74f00;
   margin:auto;
   font-family:"brandon-grotesque",san-serif;
   text-transform: uppercase;
-}
-ul{
-  list-style:none;
   display:flex;
   justify-content:center;
-  padding:0;
+}
+p{
+    font-size:20px;
+}
+nav ul{
+  list-style:none;
+  display:flex;
 }
 nav a{
   color:white;
   text-decoration: none;
 }
-li{
-  padding:2em 4em;
+nav ul li{
+  padding:2em 3em;
   color: white;
+  letter-spacing:3px;
 }
 .intro{
   text-align:center;
-  margin:20%;
+  margin-top:20%;
+  margin-bottom:20%;
 }
 
 h1{
   font-family:"brandon-grotesque", sans-serif;
   text-align:center;
   font-size:63px;
-  margin-top: 3em auto;
-  margin-bottom: 3em auto;
 }
 
 /*grid*/
