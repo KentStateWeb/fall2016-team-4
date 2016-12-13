@@ -3,9 +3,10 @@ body{
   font-family:"brandon-grotesque",san-serif;
 }
 main{
-  margin:auto;
+  margin:0 auto;
   max-width:1000px;
   font-family:"brandon-grotesque",san-serif;
+  font-size: 20px;
   padding: 2em
 }
 .navlogo{
@@ -21,7 +22,9 @@ nav{
   text-transform: uppercase;
   display:flex;
   justify-content:center;
-
+}
+p{
+    font-size:20px;
 }
 nav ul{
   list-style:none;
@@ -49,8 +52,6 @@ h1{
 }
 
 /*grid*/
-.row{
-  display:flex;
 }
 
 .box{
@@ -81,6 +82,9 @@ contact-icon{
 }
 .food img{
   width:400px
+}
+.food .box{
+  max-width:400px;
 }
 
 /*footer*/
@@ -156,4 +160,12 @@ footer li a{
   h1{
     font-size:44px
   }
+}
+@media screen and (max-width: 950px){
+.food img{
+  width:40%px
+}
+.food .box{
+  max-width:80%;
+}
 }
