@@ -1,33 +1,49 @@
 /*main-and-nav*/
-body{
-  max-width:1000px
-}
 main{
-  margin:5% auto;
+  margin:0 auto;
   max-width:1000px;
   font-family:"brandon-grotesque",san-serif;
 }
 .secondarylogo{
   max-width:120px;
+  padding:none;
 }
 
 nav{
   text-align:center;
   background-color:#E74f00;
   margin:auto;
+  font-family:"brandon-grotesque",san-serif;
+  text-transform: uppercase;
 }
-
 ul{
   list-style:none;
   display:flex;
   justify-content:center;
   padding:0;
 }
-
-li{
-  padding:3em;
-
+nav a{
+  color:white;
+  text-decoration: none;
 }
+li{
+  padding:2em 4em;
+  color: white;
+}
+.intro{
+  text-align:center;
+  margin:20%;
+}
+
+h1{
+  font-family:"brandon-grotesque", sans-serif;
+  text-align:center;
+  font-size:63px;
+  margin-top: 3em auto;
+  margin-bottom: 3em auto;
+}
+
+
 
 /*intros*/
 .intro{
@@ -42,6 +58,52 @@ h1{
   margin-top: 3em auto;
   margin-bottom: 3em auto;
 }
+
+
+
+
+/*grid*/
+}
+.first-row{
+  display:flex;
+
+}
+.second-row{
+  display:flex;
+}
+
+.box{
+  padding:4em;
+  margin:2em;
+}
+
+
+/*footer*/
+footer
+{
+   background-color:#E74f00;
+
+  display:flex;
+  margin-top:5px;
+}
+
+.footerBar li {
+  list-style: none;
+}
+
+.footerLogo {
+  width: 100px;
+}
+
+.footerSM{
+  width: 60px;
+}
+
+.footerIcons{
+  margin-left: auto;
+  border: none;
+}
+
 
 
 /*slideshow on beers page*/
@@ -133,47 +195,4 @@ figure:nth-child(8) {
   100% {
     opacity: 1;
   }
-}
-
-
-/*grid*/
-}
-.first-row{
-  display:flex;
-
-}
-.second-row{
-  display:flex;
-}
-
-.box{
-  padding:4em;
-  margin:2em;
-}
-
-
-/*footer*/
-footer
-{
-   background-color:#E74f00;
-
-  display:flex;
-  margin-top:5px;
-}
-
-.footerBar li {
-  list-style: none;
-}
-
-.footerLogo {
-  width: 100px;
-}
-
-.footerSM{
-  width: 60px;
-}
-
-.footerIcons{
-  margin-left: auto;
-  border: none;
 }
