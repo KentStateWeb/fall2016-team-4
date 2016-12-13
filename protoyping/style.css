@@ -43,28 +43,9 @@ h1{
   margin-bottom: 3em auto;
 }
 
-/*intros*/
-.intro{
-  text-align:center;
-  margin:20%;
-}
-
-h1{
-  font-family:"brandon-grotesque", sans-serif;
-  text-align:center;
-  font-size:63px;
-  margin-top: 3em auto;
-  margin-bottom: 3em auto;
-}
-
-
-
-
 /*grid*/
-}
 .first-row{
   display:flex;
-
 }
 .second-row{
   display:flex;
@@ -74,30 +55,17 @@ h1{
   padding:4em;
   margin:2em;
 }
-
-
-/*footer*/
-footer
-{
-   background-color:#E74f00;
-
+.beer-title{
+  font-weight:bold;
+}
+figcaption{
+  max-width:300px;
+}
+fig{
+  margin:1em;
+}
+@media screen and (min-width: 650px){
+  .row{
   display:flex;
-  margin-top:5px;
-}
-
-.footerBar li {
-  list-style: none;
-}
-
-.footerLogo {
-  width: 100px;
-}
-
-.footerSM{
-  width: 60px;
-}
-
-.footerIcons{
-  margin-left: auto;
-  border: none;
+  }
 }
