@@ -58,7 +58,10 @@ h1{
   margin:2em;
 }
 
-
+#beers{ img
+    width: 20%;
+    height: auto;
+}
 
 /*footer*/
 footer
