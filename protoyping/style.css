@@ -61,12 +61,7 @@ h1{
 
 
 /*footer*/
-
-footer{font-family:"brandon-grotesque", sans-serif;
-text-align:center;
-font-size:45px;
-margin-top: 3em auto;
-margin-bottom: 3em auto;}
+footer
 {
    background-color:#E74f00;
 
