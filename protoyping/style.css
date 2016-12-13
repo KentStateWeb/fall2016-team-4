@@ -3,13 +3,14 @@ body{
   font-family:"brandon-grotesque",san-serif;
 }
 main{
-  margin:2em;
+  margin:auto;
   max-width:1000px;
   font-family:"brandon-grotesque",san-serif;
+  padding: 2em
 }
 .navlogo{
   max-width:100px;
-  vertical-align: text-top;
+  vertical-align: baseline;
 }
 
 nav{
@@ -147,13 +148,7 @@ footer li a{
   }
   .FooterLogo{
   width:7%;
-  float:left;
-  vertical-align: text-top;
-}
+  vertical-align:bottom;
+  display:block;
   }
-}
-@media screen and (min-width: 1000px){
-  main{
-    margin:2em auto;
-    }
 }
