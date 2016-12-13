@@ -1,4 +1,4 @@
-/*main-and-nav*/
+/*main and nav*/
 main{
   margin:0 auto;
   max-width:1000px;
@@ -42,8 +42,6 @@ h1{
   margin-top: 3em auto;
   margin-bottom: 3em auto;
 }
-
-
 
 /*intros*/
 .intro{
