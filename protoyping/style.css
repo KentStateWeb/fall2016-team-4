@@ -69,3 +69,32 @@ fig{
   display:flex;
   }
 }
+
+
+
+
+/*footer*/
+footer
+{
+   background-color:#E74f00;
+
+  display:flex;
+  margin-top:5px;
+}
+
+.footerBar li {
+  list-style: none;
+}
+
+.footerLogo {
+  width: 100px;
+}
+
+.footerSM{
+  width: 60px;
+}
+
+.footerIcons{
+  margin-left: auto;
+  border: none;
+}
