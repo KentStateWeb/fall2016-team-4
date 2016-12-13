@@ -1,0 +1,139 @@
+nav{
+  text-align:center;
+  background-color:#E74f00;
+  margin:auto;
+  font-family:"brandon-grotesque",san-serif;
+  text-transform: uppercase;
+}
+ul{
+  list-style:none;
+  display:flex;
+  justify-content:center;
+  padding:0;
+}
+nav a{
+  color:white;
+  text-decoration: none;
+}
+li{
+  padding:2em 4em;
+  color: white;
+}
+.intro{
+  text-align:center;
+  margin:20%;
+}
+
+h1{
+  font-family:"brandon-grotesque", sans-serif;
+  text-align:center;
+  font-size:63px;
+  margin-top: 3em auto;
+  margin-bottom: 3em auto;
+}
+
+/*grid*/
+.first-row{
+  display:flex;
+}
+.second-row{
+  display:flex;
+}
+
+.box{
+  padding:4em;
+  margin:2em;
+}
+.beer-title{
+  font-weight:bold;
+}
+figcaption{
+  max-width:300px;
+}
+fig{
+  margin:1em;
+}
+@media screen and (min-width: 650px){
+  .row{
+  display:flex;
+  }
+}
+
+
+h1{
+  font-family:"brandon-grotesque", sans-serif;
+  text-align:center;
+  font-size:63px;
+  margin-top: 3em auto;
+  margin-bottom: 3em auto;
+}
+
+/*button*/
+.button {
+
+	background-color:#ed4a23;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:12px 20px;
+	text-decoration:none;
+
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+main{
+  margin:0 auto;
+  max-width:1000px;
+  font-family:"brandon-grotesque",san-serif;
+}
+.secondarylogo{
+  max-width:120px;
+  padding:none;
+}
+
+}
+ol{
+  color: black;
+}
+
+/*footer*/
+.FooterLogo{
+  width:5em;
+  float:left;
+}
+footer{
+  background-color:#464646;
+  margin:auto;
+  padding:10px;
+  display:flex;
+}
+
+.footerBar li {
+  list-style: none;
+  color: white;
+  padding-right:2.5em;
+  font-size:14px;
+  letter-spacing:1px;
+}
+
+.footerSM{
+  width: 30px;
+}
+
+.footerIcons{
+  margin:10px;
+  border: none;
+  float:right;
+}
+.footerBar{
+  display:flex;
+}
+footer li a{
+  color:white;
+}
